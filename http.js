@@ -96,3 +96,5 @@ export default {
 // {headers:{"Content-Type":"application/x-www-form-urlencoded"}}时，请求的数据不一样：
 
 // jquery 提交后 formdata 是一个数组 而 axios 请求中是一个对象 而不是数组
+
+// 解决办法 引入 qs
