@@ -3,7 +3,7 @@
 import axios from 'axios'
 import qs from 'qs'
 import { store, cookie } from '../util'
-//store 是一个自己封装 获取
+//store 是一个自己封装 获取持久化数据
 axios.interceptors.request.use(config => {
   // loading
   //这里 后端需要携带的 token 之类的事情/
